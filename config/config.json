@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "root",
+    "password": "123456",
+    "database": "mp_dev",
+    "host": "127.0.0.1",
+    "port": "33061",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "seederStorage": "json",
+    "seederStoragePath": "sequelizeData.json",
+    "seederStorageTableName": "sequelize_data"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "mp_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "seederStorage": "json",
+    "seederStoragePath": "sequelizeData.json",
+    "seederStorageTableName": "sequelize_data"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "campus_epide_helper",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

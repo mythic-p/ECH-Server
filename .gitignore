@@ -1,0 +1,10 @@
+.DS_Store
+*/.DS_Store
+node_modules/
+dist/
+notes/
+*.code-workspace
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+sequelizeData.json*

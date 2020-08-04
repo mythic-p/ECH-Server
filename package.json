@@ -1,0 +1,34 @@
+{
+  "name": "esm-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "db-init": "npx sequelize-cli db:create",
+    "migration": "npx sequelize-cli db:migrate",
+    "migration-undo": "npx sequelize-cli db:migrate:undo",
+    "migration-undo-all": "npx sequelize-cli db:migrate:undo:all",
+    "seed": "npx sequelize-cli db:seed:all",
+    "seed-undo": "npx sequelize-cli db:seed:undo",
+    "seed-undo-all": "npx sequelize-cli db:seed:undo:all"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-jwt": "^5.3.3",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "morgan": "~1.9.1",
+    "sequelize": "^5.21.7",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
